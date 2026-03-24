@@ -58,27 +58,7 @@ body {
 }
 
 /* ===== HERO ===== */
-.hero {
-  min-height: 90vh;
-  display: grid;
-  place-items: center;
-  text-align: center;
-  padding: 40px;
-  background: linear-gradient(black, gray);
-}
 
-.hero h1 {
-  font-size: 3rem;
-}
-
-.hero span {
-  color: blue;
-}
-
-.hero p {
-  color: gray;
-  margin-top: 10px;
-}
 .profile-img {
   width: 200px;
   height: 200px;
