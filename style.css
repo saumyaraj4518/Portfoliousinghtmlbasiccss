@@ -58,6 +58,11 @@ body {
 }
 
 /* ===== HERO ===== */
+.hero {
+  padding: 60px 20px;   
+  text-align: center;
+  background: linear-gradient(black, gray);
+}
 
 .profile-img {
   width: 200px;
@@ -65,20 +70,17 @@ body {
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid blue;
-  
+  margin-bottom: 20px;
 }
 
-
-.hero {
-  min-height: 80vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  background: linear-gradient(black, gray);
+/* ===== TEXT SPACING ===== */
+.hero h1 {
+  margin-top: 10px;
 }
 
+.hero p {
+  margin-top: 5px;
+}
 
 /* ===== SECTION ===== */
 .section {
@@ -111,6 +113,73 @@ body {
   text-align: center;
   border-radius: 10px;
   transition: 0.3s;
+}
+
+.skill-box:hover {
+  background: blue;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* ===== PROJECTS ===== */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.project {
+  background: gray;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.project:hover {
+  transform: translateY(-8px);
+  background: black;
+  color: white;
+}
+
+/* ===== CONTACT ===== */
+.contact-box {
+  text-align: center;
+}
+
+.contact-box a {
+  display: inline-block;
+  margin: 10px;
+  color: blue;
+  text-decoration: none;
+}
+
+.contact-box a:hover {
+  color: green;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: black;
+  color: gray;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .section {
+    padding: 60px 20px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+}  transition: 0.3s;
 }
 
 .skill-box:hover {
