@@ -58,11 +58,7 @@ body {
 }
 
 /* ===== HERO ===== */
-.hero {
-  padding: 20px;
-  text-align: center;
-  background: linear-gradient(black, gray);
-}
+
 
 .profile-img {
   width: 200px;
