@@ -69,7 +69,7 @@ body {
 }
 
 /* BUTTON */
-.cta-btn {
+/*.cta-btn {
   margin-top: 20px;
   padding: 12px 25px;
   border: none;
@@ -83,7 +83,7 @@ body {
 .cta-btn:hover {
   background: green;
   transform: translateY(-3px);
-}
+}*/
 
 /* ===== SECTION ===== */
 .section {
