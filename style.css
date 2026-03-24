@@ -46,7 +46,7 @@ body {
   content: "";
   width: 0%;
   height: 2px;
-  background: blue;
+  background: cyan;
   position: absolute;
   left: 0;
   bottom: -5px;
